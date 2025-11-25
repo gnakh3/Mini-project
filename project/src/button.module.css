@@ -1,4 +1,4 @@
-button {
+.button {
     width: 193px;
     height: 52px;
     border-radius: 8px;
@@ -8,10 +8,27 @@ button {
     letter-spacing: -1.1%;
     text-align: center;
     color: #020202;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
 }
 
 button:hover {
-    scale: calc(1.1);
+    scale: calc(1.02);
     opacity: 0.75;
+}
+
+.button1 {
+    width: 260px;
+    height: 63px;
+    border-radius: 8px;
+    background-color: #FCAF17;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -1.1%;
+    text-align: center;
+    color: #020202;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+
 }
 
