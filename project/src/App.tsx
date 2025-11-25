@@ -1,4 +1,4 @@
-import Body from './components/body/BodyStructure'
+import Body from './components/EntirePage/BodyStructure'
 const App = () => {
   return (
     <>
