@@ -5,14 +5,6 @@ import game3 from '../../assets/RED.svg'
 import game4 from '../../assets/RED Online.svg'
 import style from '../../button.module.css'
 
-type availableGames = {
-  game1: string
-  game2: string
-  game3: string
-  game4: string
-
-  
-}
 
 const Games = () => {
   return (

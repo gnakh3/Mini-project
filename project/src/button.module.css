@@ -28,7 +28,18 @@ button:hover {
     text-align: center;
     color: #020202;
     transition: transform 0.3s ease, opacity 0.3s ease;
-
-
 }
 
+.button2 {
+    font-weight: 800;
+    width: 260px;
+    height: 63px;
+    border-radius: 8px;
+    background-color: #FCAF17;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -1.1%;
+    text-align: center;
+    color: #020202;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}

@@ -1,6 +1,8 @@
 import Header from "../Header/Header"
 import GameSection from "../GameSection/Games"
+import Launchers from "../GameLauncher/Launchers"
 import News from "../NewsPage/News"
+import Footer from "../Footer/Footer"
 import bg1 from "../../assets/bg1.svg"
 import bg2 from "../../assets/bg2.svg"
 import bg3 from "../../assets/bg3.svg"
@@ -32,6 +34,8 @@ const EntirePage = () => {
       <Header />
       <GameSection />
       <News news={newsData} />
+      <Launchers/>
+      <Footer/>
     </>
   )
 }
