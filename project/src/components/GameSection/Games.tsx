@@ -17,6 +17,7 @@ import "swiper/css/navigation";
 // @ts-ignore
 import "swiper/css/pagination";
 
+// gavaswore
 
 
 const allGames = [
