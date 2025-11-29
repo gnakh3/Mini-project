@@ -1,4 +1,5 @@
-import { FC, useState } from "react";
+import type { FC } from "react";
+import { useState } from "react";
 import Banner from "../../assets/GTA 6 banner.svg";
 import game1 from "../../assets/GTA 5.svg";
 import game2 from "../../assets/GTA online.svg";
@@ -8,9 +9,15 @@ import style from "../../button.module.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
+
+// @ts-ignore
 import "swiper/css";
+// @ts-ignore
 import "swiper/css/navigation";
+// @ts-ignore
 import "swiper/css/pagination";
+
+
 
 const allGames = [
   { src: game1, category: "PC" },
